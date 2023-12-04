@@ -15,6 +15,9 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
-    private int rating;
+
+    public Review(String body) {
+        this.body = body;
+    }
 
 }

@@ -16,7 +16,8 @@ import java.util.List;
 @NoArgsConstructor   // constructor that doesnt take any attribute
 public class Anime {
     @Id
-    private ObjectId Id;
+    private ObjectId id;
+    private String ranking;
     private String title;
     private String releaseDate;
     private List<String> genres;

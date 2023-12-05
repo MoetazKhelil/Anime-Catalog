@@ -20,6 +20,7 @@ public class Anime {
     private String ranking;
     private String title;
     private String releaseDate;
+    private String trailerLink;
     private List<String> genres;
     private String poster;
     private List<String> backdrops;
